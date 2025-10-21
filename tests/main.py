@@ -6,6 +6,7 @@ from app.main import app
 
 @pytest.mark.asyncio
 async def test_main():
+    """Асинхронный тест главной ручки"""
     async with (AsyncClient(
         transport=ASGITransport(app=app), base_url="http://test"
     )) as client:
