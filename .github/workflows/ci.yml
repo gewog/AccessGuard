@@ -46,7 +46,7 @@ jobs:
         run: poetry install --no-root
 
       - name: Run migrations
-        run: poetry run alembic upgrade head
+        run: poetry run alembic stamp head
         env:
           DB_USER: postgres
           DB_PASS: 22iamgewog22
