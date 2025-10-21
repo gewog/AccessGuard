@@ -9,7 +9,7 @@ on:
 env:
   DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
   DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
-  DOCKER_HUB_REPO: "ваш_docker_hub_repo/accessguard"  # Замените на ваш репозиторий
+  DOCKER_HUB_REPO: ваш_docker_hub_repo/accessguard
 
 jobs:
   test:
@@ -55,11 +55,12 @@ jobs:
           DB_NAME: access_guard_db
 
       - name: Run tests
+        run: poetry run pytest tests/
         env:
           DB_USER: postgres
           DB_PASS: 22iamgewog22
           DB_PORT: 5432
           DB_HOST: localhost
           DB_NAME: access_guard_db
-        run: poetry run
+
 
