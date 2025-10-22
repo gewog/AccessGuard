@@ -42,8 +42,10 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Игнорировать PNG-файлы
 img.png
 img1.png
 img2.png
 
-static
+# Игнорировать папку static
+static/
