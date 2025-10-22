@@ -41,3 +41,9 @@ logs/
 # Системные файлы
 .DS_Store
 Thumbs.db
+
+img.png
+img1.png
+img2.png
+
+static
