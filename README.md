@@ -1,6 +1,8 @@
 # AccessGuard: Система аутентификации и авторизации
 
-![AccessGuard Logo](https://via.placeholder.com/150/0077b6/ffffff?text=AccessGuard)
+<div align="center">
+  <img src="img2.png" alt="Demo of SmartAdBot" width="60" />
+</div>
 
 **AccessGuard** — это backend-приложение, реализующее собственную систему аутентификации и авторизации с гибким управлением правами доступа к ресурсам. Проект разработан с акцентом на безопасность, модульность и расширяемость.
 
