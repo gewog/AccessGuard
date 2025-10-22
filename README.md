@@ -183,5 +183,5 @@ gewog
 Проект распространяется под лицензией MIT.
 
 <div align="center">
-  <img src="![img.png](img.png)https://media.tenor.com/NQtoHKskOY0AAAAi/cute-monster-monster.gif" alt="Demo of SmartAdBot" width="200" />
+  <img src="https://media.tenor.com/1_3SkkWXJNQAAAAi/monster-cute-dog.gif" alt="Demo of SmartAdBot" width="200" />
 </div>
